@@ -11,9 +11,10 @@
 
 
     </v-app-bar>
+      <SideNav />
 
     <v-content>
-            <SideNav />
+      <router-view/>
     </v-content>
   </v-app>
 </template>
